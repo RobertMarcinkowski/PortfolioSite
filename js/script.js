@@ -1,5 +1,3 @@
-
-
 $(window).on('load', function () {
     $('.preloader').addClass('invisible');
     $('.main-effect').addClass('visible');
@@ -17,5 +15,4 @@ $(window).scroll(function () {
     $('.main').css({
         'background-position': 'center ' + (top / 2).toFixed(2) + 'px'
     });
-
 });
