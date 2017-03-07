@@ -1,0 +1,50 @@
+body {
+    min-height: 2000px;
+}
+
+.main {
+    background: url('../images/pattern.png') no-repeat center 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.main-effect {
+    opacity: 0;
+    transition: 3s;
+}
+
+.first {
+/*        background: rgba(0, 0, 255, 1);*/
+    min-height: 500px;
+}
+
+.second {
+    /*    background: rgba(255, 0, 255, 0.3);*/
+    min-height: 500px;
+}
+
+.third {
+    /*    background: rgba(255, 255, 0, 0.3);*/
+    min-height: 500px;
+}
+
+.foot {
+    min-height: 500px;
+    /*    background-color: rgba(55, 90, 127, 1);*/
+}
+
+.block {
+    opacity: 0;
+    transition: 1s;
+    position: relative;
+    top: 200px;
+}
+
+.visible {
+    opacity: 1;
+    top: 0;
+}
