@@ -16,3 +16,13 @@ $(window).scroll(function () {
         'background-position': 'center ' + (top / 2).toFixed(2) + 'px'
     });
 });
+
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        items: 1
+    });
+});
