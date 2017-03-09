@@ -12,7 +12,7 @@ $(window).scroll(function () {
         }
     });
     var top = $(document).scrollTop();
-    $('.main').css({
+    $('#main').css({
         'background-position': 'center ' + (top / 2).toFixed(2) + 'px'
     });
 });

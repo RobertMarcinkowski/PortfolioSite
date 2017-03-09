@@ -1,4 +1,4 @@
-.main {
+#main {
     background: url('../images/pattern.png') no-repeat center 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,6 +10,14 @@
 .main-effect {
     opacity: 0;
     transition: 3s;
+}
+
+h1 {
+    word-break: break-all;
+}
+
+.profile-img {
+    max-height: 100vh;
 }
 
 .block {
@@ -31,6 +39,30 @@
     align-items: center;
 }
 
-.first {
+#first {
     padding-top: 30px;
+}
+
+#foot {
+    padding-bottom: 30px;
+}
+
+.social {
+    padding: 10px;
+}
+
+.social a {
+    margin: 2px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
 }
