@@ -7,17 +7,33 @@
     min-height: 100vh;
 }
 
+#first {
+    padding-top: 30px;
+}
+
+#foot {
+    padding-bottom: 30px;
+}
+
 .main-effect {
     opacity: 0;
     transition: 3s;
 }
 
-h1 {
-    word-break: break-all;
+.center-content {
+    padding-top: 60px;
+    /*  problem here  */
+    /*  cannot center vertically and background sometimes disappears  */
+    /*
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+*/
 }
 
 .profile-img {
-    max-height: 100vh;
+    padding: 5px;
 }
 
 .block {
@@ -32,19 +48,8 @@ h1 {
     top: 0;
 }
 
-.center-content {
-    min-height: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-#first {
-    padding-top: 30px;
-}
-
-#foot {
-    padding-bottom: 30px;
+.text-align-center {
+    text-align: center;
 }
 
 .social {
@@ -55,14 +60,6 @@ h1 {
     margin: 2px;
 }
 
-.text-align-center {
-    text-align: center;
-}
-
-.text-align-left {
-    text-align: left;
-}
-
-.text-align-right {
-    text-align: right;
+h1 {
+    word-break: break-all;
 }
