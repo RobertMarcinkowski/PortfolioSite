@@ -1,5 +1,7 @@
 #main {
-    background: url('../images/pattern.png') no-repeat center 0px;
+    /*  problem here  */
+    /*  background sometimes dissappears  */
+    background: url('../images/pattern.jpg') no-repeat center 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +19,7 @@
 
 .main-effect {
     opacity: 0;
-    transition: 3s;
+    transition: 2s;
 }
 
 .center-content {
