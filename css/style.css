@@ -1,11 +1,16 @@
-#main {
-    /*  problem here  */
-    /*  background sometimes dissappears  */
+.parallaxa {
     background: url('../images/pattern.jpg') no-repeat center 0px;
+    position: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+#main {
     min-height: 100vh;
 }
 
@@ -24,18 +29,11 @@
 
 .center-content {
     padding-top: 60px;
-    /*  problem here  */
-    /*  cannot center vertically and background sometimes disappears  */
-    /*
-    min-height: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-*/
 }
 
 .profile-img {
     padding: 5px;
+    max-height: 350px;
 }
 
 .block {
@@ -64,4 +62,8 @@
 
 h1 {
     word-break: break-all;
+}
+
+.default-background {
+    background-color: #232629;
 }

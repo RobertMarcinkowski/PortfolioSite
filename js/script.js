@@ -3,6 +3,12 @@ $(window).on('load', function () {
     $('.main-effect').addClass('visible');
 });
 
+$(window).on('load resize', function () {
+    $('.parallaxa').css({
+        'height': $('#main').height()
+    });
+});
+
 $(window).scroll(function () {
     var scroll = $(window).scrollTop() + 600;
     $('.block').each(function () {
@@ -12,8 +18,8 @@ $(window).scroll(function () {
         }
     });
     var top = $(document).scrollTop();
-    $('#main').css({
-        'background-position': 'center ' + (top / 2).toFixed(2) + 'px'
+    $('.parallaxa').css({
+        'background-position': 'center -' + (top / 2).toFixed(2) + 'px'
     });
 });
 
